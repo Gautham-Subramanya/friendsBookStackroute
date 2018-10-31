@@ -14,7 +14,7 @@ services:
   friendsbook:
     image:  friendsbookstackroute
     build:  ../friendsBookStackroute
-    restart:  always
+    restart:  never
     network_mode:  host
     container_name:  friendsbookstackroute
     depends_on:
